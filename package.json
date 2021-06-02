@@ -1,7 +1,7 @@
 {
   "name": "c4c",
   "version": "1.0.0",
-  "description": "A simple CAP project.",
+  "description": "Test C4C with CAP",
   "repository": "<Add your repository here>",
   "license": "UNLICENSED",
   "private": true,
@@ -13,7 +13,7 @@
     "sqlite3": "^5.0.2"
   },
   "scripts": {
-    "start": "cds run"
+    "start": "cds run --with-mocks --in-memory 2> error.txt"
   },
   "eslintConfig": {
     "extends": "eslint:recommended",
